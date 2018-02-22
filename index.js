@@ -31,7 +31,15 @@ function inc(n) {
 
 // dec(n) decrements n and returns the result:
 
+function dec(n) {
+  return --n;
+}
+
 // makeInt(n) parses n as an integer and returns the parsed integer:
+
+function makeInt(n) {
+  return parseInt(n, 10);
+}
 
 // makeInt(n) assumes base 10:
 
