@@ -48,3 +48,8 @@ function makeInt(n) {
 // 10) preserveDecimal(n) preserves n's decimals (it parses n as a floating point number) and returns the parsed number:
 
 // preserveDecimal(n) returns NaN as appropriate:
+
+
+function preserveDecimal(n) {
+  return parseFloat(n);
+}
