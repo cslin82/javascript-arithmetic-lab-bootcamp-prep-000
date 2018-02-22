@@ -25,6 +25,10 @@ function divide(a, b) {
 
 // inc(n) increments n and returns the result:
 
+function inc(n) {
+  ++n;
+}
+
 // dec(n) decrements n and returns the result:
 
 // makeInt(n) parses n as an integer and returns the parsed integer:
