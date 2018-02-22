@@ -26,7 +26,7 @@ function divide(a, b) {
 // inc(n) increments n and returns the result:
 
 function inc(n) {
-  ++n;
+  return ++n;
 }
 
 // dec(n) decrements n and returns the result:
